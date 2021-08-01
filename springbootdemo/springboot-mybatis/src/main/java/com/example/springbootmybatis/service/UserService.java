@@ -5,10 +5,11 @@ import com.example.springbootmybatis.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserService {
 
 
 
-     List<User> findAll() ;
+     List<User> findAll(Map<String,Object> params) ;
 }
