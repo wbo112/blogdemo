@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/springboot-commandargs/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-configuration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-transaction/src/main/java" charset="UTF-8" />
   </component>
 </project>
