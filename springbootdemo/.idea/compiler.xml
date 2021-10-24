@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-jdbc-transaction" />
+        <module name="springboot-transaction" />
         <module name="springboot-commandargs" />
         <module name="springboot-mybatis" />
         <module name="springboot-configuration" />
-        <module name="springboot-transaction" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-commandargs" options="-parameters" />
       <module name="springboot-configuration" options="-parameters" />
+      <module name="springboot-jdbc-transaction" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-transaction" options="-parameters" />
     </option>
