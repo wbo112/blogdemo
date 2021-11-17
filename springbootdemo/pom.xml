@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springboot-transaction</module>
+        <module>springboot-profiles</module>
     </modules>
 
     <properties>

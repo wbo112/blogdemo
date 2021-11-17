@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-jdbc-transaction" />
-        <module name="springboot-transaction" />
         <module name="springboot-commandargs" />
         <module name="springboot-mybatis" />
         <module name="springboot-configuration" />
+        <module name="springboot-jdbc-transaction" />
+        <module name="springboot-transaction" />
       </profile>
     </annotationProcessing>
   </component>
