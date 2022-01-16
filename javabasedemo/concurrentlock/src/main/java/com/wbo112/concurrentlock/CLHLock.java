@@ -22,6 +22,20 @@ public class CLHLock {
         }
     }
 
+    public void lock(long   time) {
+        long start=System.currentTimeMillis();
+        QNode qNode = myNode.get();
+        qNode.locked = true;
+        QNode pred = tail.getAndSet(qNode);
+        myPred.set(pred);
+        while (pred.locked) {
+            //超时
+            if((System.currentTimeMillis()-start)>time){
+                return;
+            }
+        }
+    }
+
     public void unlock() {
         QNode qNode = myNode.get();
         qNode.locked = false;
