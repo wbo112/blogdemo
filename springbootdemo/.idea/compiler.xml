@@ -11,7 +11,12 @@
         <module name="springboot-commandargs" />
         <module name="springboot-mybatis" />
         <module name="springboot-configuration" />
+<<<<<<< HEAD
         <module name="springbootconfiguration" />
+=======
+        <module name="springboot-jdbc-transaction" />
+        <module name="springboot-transaction" />
+>>>>>>> 752524b5acf81b65be0b1adb8eebc2cfefea8cf2
       </profile>
     </annotationProcessing>
   </component>
@@ -19,7 +24,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-commandargs" options="-parameters" />
       <module name="springboot-configuration" options="-parameters" />
+<<<<<<< HEAD
       <module name="springboot-https" options="-parameters" />
+=======
+      <module name="springboot-jdbc-transaction" options="-parameters" />
+>>>>>>> 752524b5acf81b65be0b1adb8eebc2cfefea8cf2
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-transaction" options="-parameters" />
       <module name="springbootconfiguration" options="-parameters" />

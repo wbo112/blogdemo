@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: sitdba,test
+name: abc
+age: 18
+---
+spring:
+  profiles: dev
+name: dev
+age: 20
+
+---
+spring:
+  profiles: sitdba,test
+  profiles.active: dev
+name: aaa
+age: 21
+

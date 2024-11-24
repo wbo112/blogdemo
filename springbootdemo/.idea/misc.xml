@@ -9,7 +9,11 @@
         <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-commandargs/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-configuration/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/springboot-https/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/springboot-jdbc-transaction/pom.xml" />
+>>>>>>> 752524b5acf81b65be0b1adb8eebc2cfefea8cf2
       </list>
     </option>
   </component>
