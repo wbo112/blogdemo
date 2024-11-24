@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>bootargs</artifactId>
+    <artifactId>springboot-commandargs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>bootargs</name>
     <description>Demo project for Spring Boot</description>
